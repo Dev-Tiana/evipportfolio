@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eviokpako-portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="portfoliostyles.css">
+    <script src="https://kit.fontawesome.com/ba6446e298.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <p class="logo"><span style="color: red;">E</span>vi Ok<span style="color: blue;">p</span>ako</p>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Porfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer and Content marketer</p>
+                <h1>Hi, i'm <span>Evi</span><br> Okpako from <span style="color: #ff004f;">Nigeria</span></h1>
+            </div>
+        </div>
+    </div>
+
+    <!------about------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img class="facepicss" style="" src="picturesfa/facepics.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <hi class="sub-tittle">About me</hi>
+                    <p>I'm a frontend developer in training and a content marketer. I'm Passionate about crafting engaging user experiences, I'm dedicated to mastering HTML, CSS, JavaScript, and frontend frameworks like React. This portfolio showcases my journey and evolving skills. Excited to collaborate and grow together</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>I Create responsive website</li>
+                            <li><span>Creative writing</span><br>I write from within</li>
+                            <li><span>Content marketing</span><br>I specialize in crafting content strategies that helps brand stand out online</li>
+                        </ul>
+                     </div> 
+                     
+                     <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Inventory Manager at Peak Guest House(2022-2024)</span><br>I manage and track store inventory</li>
+                            <li><span>Content marketer at Write and Lead Concept(2024 - Date)</span><br>I craft effective content strategies to enhance brand online presence</li>
+                            <li><span>Web Development(2024 - Date)</span><br>I created this portfolio and other websites(see my work)</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018 - 2023</span><br>BSc.(Hons) in Anatomy from Osun State University, Osogbo</li>
+                            <li><span>2023</span><br> IBM Web Development at Courserar</li>
+                            <li><span>2024</span><br>Ai Essentials at ALX</li>
+                            <li><span>2023 - Date</span><br>Software Engineering at ALX</li>
+                        </ul>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----services-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-tittle">My Services</h1> 
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>I'm searching for Internship placement</p>
+                   <!---- <a href="#">Learn more</a>-->
+                </div>
+    
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Content marketing</h2>
+                    <p>I help brands Stand Out online = Increase visibility, Connect with right Audience, and Boost conversion rates. |Storyteller |Social media manager| </p>
+                    <!--<a href="#">Learn more</a>-->
+                </div>
+    
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Writing</h2>
+                    <p>I'm a writer who loves bringing ideas to life with words. I create stories, scripts, and content that connect with people and leave an impact.</p>
+                    <!--<a href="#">Learn more</a>-->
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <!------porfolio----->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-tittle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="picturesfa/newyoutubeimage.png" alt="">
+                    <div class="layer">
+                        <h3>Youtube Website</h3>
+                        <p>This website enables users to search for and watch vidoes of various genres created by creators worldwide.</p>
+                        <a href="https://dev-tiana.github.io/Youtube-site/NewYoutube"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div> 
+                <div class="work">
+                    <img src="picturesfa/2amazon (2).PNG" alt="">
+                    <div class="layer">
+                        <h3>Amazon ecommerce site</h3>
+                        <p>This platform enhances the ease of buying and selling online.</p>
+                        <a href="https://dev-tiana.github.io/ecomercepage/amazon.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="picturesfa/nikepage (2).PNG" alt="">
+                    <div class="layer">
+                        <h3>Nike landing page</h3>
+                        <p>This site is a landing page for Nike new customers.</p>
+                        <a href="https://dev-tiana.github.io/nikelandingpagenew/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            
+            <div class="work-list">
+                <div class="work">
+                    <img src="picturesfa/newrockpaperscissors (2).PNG" alt="">
+                    <div class="layer">
+                        <h3>Youtube Website</h3>
+                        <p>This is a gaming site.</p>
+                        <a href="https://dev-tiana.github.io/rockpaperscissors/12-rock-paper-scissors.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div> 
+                <div class="work">
+                    <img src="picturesfa/todo list (3).PNG" alt="">
+                    <div class="layer">
+                        <h3>Todo-List</h3>
+                        <p>This site aids in planning daily, weekly, and monthly activities which helps with productivity.</p>
+                        <a href="https://dev-tiana.github.io/Todo-List/To-do-list.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="picturesfa/2calculator (2).PNG" alt="">
+                    <div class="layer">
+                        <h3>Simple calculator</h3>
+                        <p>Here is a simple calculator for basic mathematics.</p>
+                        <a href="https://dev-tiana.github.io/simplecalculator/calculator.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://dev-tiana.github.io/facebookwebsite/facebookweb" class="btn">See more</a>
+        </div>
+    </div>
+    <!-----contact----------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> eviokpako.c@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> +2348129417103</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=61550976728344&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/evi-okpako-562641238?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/tianaokpako?igsh=MThxbGJma2FocWFt"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://wa.me/qr/7JOXZBSN3CMFN1"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://x.com/Coach_Evii?t=BdHCjQM35W5S-G7G06BrDQ&s=09"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1mCPCch7LoTFP9cZyq5u0_Tw_KBVQKWGe/view?usp=drivesdk" download="" class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form name='submit-to-google-sheet'>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright Evi Okpako. Made with <i class="fa-solid fa-heart"></i> by Evi Okpako</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove('active-link');
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        
+        var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+    </script>
+
+<script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbyC_MlaARYzQJyY-LoYj4xkuHAK-GCfcqcjyPPer2eRvK8G662EXCCczaUj6B_OSWR6/exec';
+        const form = document.forms['submit-to-google-sheet'];
+        const msg = document.getElementById("msg");
+
+        form.addEventListener('submit', e => {
+        e.preventDefault();
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully";
+                setTimeout(function(){
+                    msg.innerHTML = "";
+                }, 5000);
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message));
+        });
+
+  </script>
+</body>
+</html>
